@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Site de pension pour chats dans le Maine et Loire</title>
+		<title>Contact - Site de pension pour chats dans le Maine et Loire</title>
 		<link rel="stylesheet" href="default.css" />
 	</head>
 	<body>
