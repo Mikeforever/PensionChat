@@ -1,0 +1,74 @@
+body {
+    background-color: beige;
+    font-family:cursive;
+}
+
+#affBody {
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 3px;
+}
+
+#affPrincipal{
+    display: flex;
+    flex-direction:row;
+    border: groove blue 3px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 3px;
+}
+
+nav ul li {
+    list-style-type: none;
+    list-style-position: inside;
+    list-style-image: url("images/animal-chat-icone.png");
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+nav ul li:hover {
+    background-color: antiquewhite;
+}
+
+#listeNav {
+    padding: 5px;
+}
+
+nav {
+    border: groove blue 3px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 13%;
+}
+
+header {
+    display: flex;
+    margin: 10px;
+    border: groove blue 3px;
+    border-radius: 10px;
+    width: auto;
+}
+
+h1 {
+    margin:auto;
+}
+
+footer {
+    border: groove blue 3px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+section {
+    border: groove blue 3px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    width: 87%;
+}
