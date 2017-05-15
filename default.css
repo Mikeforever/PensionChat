@@ -58,6 +58,10 @@ h1 {
     margin:auto;
 }
 
+h2 {
+    color: red;
+}
+
 footer {
     border: groove blue 3px;
     border-radius: 10px;
