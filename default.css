@@ -58,7 +58,7 @@ h1 {
     margin:auto;
 }
 
-h2 {
+section h2 {
     color: red;
 }
 
@@ -75,4 +75,9 @@ section {
     margin: 10px;
     padding: 5px;
     width: 87%;
+}
+
+section iframe {
+    margin: auto;
+    display: flex;
 }
