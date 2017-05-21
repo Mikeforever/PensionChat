@@ -1,5 +1,6 @@
 body {
-    background-color: beige;
+    background: url(images/E1013937.JPG) no-repeat darkgreen;
+    background-size: 100%;
     font-family:cursive;
 }
 
@@ -8,18 +9,19 @@ body {
     flex-direction: column;
     margin: 10px;
     padding: 3px;
+    width: 62%;
 }
 
 #affPrincipal{
     display: flex;
     flex-direction:row;
-    border: groove blue 3px;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 3px;
 }
 
-nav ul li {
+nav ul {
+    margin: 0px; /* Suppression de la marge autour de la liste */
+}
+
+nav ul li { /* Liste avec des chats au lieu des puces */
     list-style-type: none;
     list-style-position: inside;
     list-style-image: url("images/animal-chat-icone.png");
@@ -28,7 +30,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 nav ul li:hover {
@@ -40,44 +42,67 @@ nav ul li:hover {
 }
 
 nav {
-    border: groove blue 3px;
-    border-radius: 10px;
+    /*border: groove blue 3px;*/
+    
+    border: 10px solid;
+    border-image: url("images/tronc_arbre.jpg") 30 round;
     margin: 10px;
-    width: 13%;
+    width: 17%;
+    opacity: 0.6;
+    background-color: white;
+    min-height: 700px;
 }
 
 header {
     display: flex;
     margin: 10px;
-    border: groove blue 3px;
-    border-radius: 10px;
-    width: auto;
+    border: 10px solid;
+    border-image: url("images/tronc_arbre.jpg") 30 round;
+    justify-content: center;
+    opacity: 0.6;
+    background-color: white;
 }
 
 h1 {
-    margin:auto;
+    margin: 10px;
 }
 
 section h2 {
     color: red;
 }
 
+section h3 {
+    margin-top: 0px;
+}
+
 footer {
-    border: groove blue 3px;
-    border-radius: 10px;
+    border: 10px solid;
+    border-image: url("images/tronc_arbre.jpg") 30 round;
     margin: 10px;
     padding: 5px;
+    opacity: 0.6;
+    background-color: white;
 }
 
 section {
-    border: groove blue 3px;
-    border-radius: 10px;
+    border: 10px solid;
+    border-image: url("images/tronc_arbre.jpg") 30 round;
     margin: 10px;
     padding: 5px;
     width: 87%;
+    opacity: 0.6;
+    background-color: white;
 }
 
 section iframe {
     margin: auto;
     display: flex;
+}
+
+header div {
+    display: flex;
+}
+
+header div p {
+    margin-left: 10px;
 }

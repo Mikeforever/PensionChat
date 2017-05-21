@@ -1,0 +1,99 @@
+body {
+    background-color: white;
+    font-family:cursive;
+}
+
+#affBody {
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 3px;
+}
+
+#affPrincipal{
+    display: flex;
+    flex-direction:column;
+}
+
+nav ul {
+    margin: auto; /* Suppression de la marge autour de la liste */
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+nav ul li { /* Liste avec des chats au lieu des puces */
+    list-style-type: none;
+    list-style-position: inside;
+    list-style-image: url("images/animal-chat-icone.png");
+    margin-left:20px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+nav ul li:hover {
+    background-color: aquamarine;
+}
+
+#listeNav {
+    margin: auto;
+    display: flex;
+}
+
+nav {
+    background-color: skyblue;
+    margin: 10px;
+    display: flex;
+    
+}
+
+header {
+    display: flex;
+    margin: 10px;
+    background-color: lightskyblue;
+    justify-content: center;
+}
+
+h1 {
+    margin: 10px;
+}
+
+section h2 {
+    color: red;
+}
+
+section h3 {
+    margin-top: 0px;
+}
+
+footer {
+    background-color: deepskyblue;
+    margin: 10px;
+    padding: 5px;
+}
+
+section {
+    background-color: lightskyblue;
+    margin: 10px;
+    padding: 5px;
+}
+
+section iframe {
+    margin: auto;
+    display: flex;
+}
+
+header div {
+    display: flex;
+    margin-left: 10px;
+}
+
+header div p {
+    margin-left: 10px;
+}

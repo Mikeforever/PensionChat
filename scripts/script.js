@@ -67,3 +67,17 @@ function clicSurUnLien(e, nomLien)
     e.preventDefault();
 }
 
+document.getElementById("style1").addEventListener("click", function(e) {
+    document.querySelector("link").href = "default.css";
+    e.preventDefault();
+});
+
+document.getElementById("style2").addEventListener("click", function(e) {
+    document.querySelector("link").href = "default2.css";
+    e.preventDefault();
+});
+
+document.getElementById("style3").addEventListener("click", function(e) {
+    document.querySelector("link").href = "default3.css";
+    e.preventDefault();
+});
